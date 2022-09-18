@@ -1,9 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet - prints alphabets from a-z                                                                                             
- * Return: 0 when successful                                                                                                              
- * Description - You can only use _putchar twice in your code                                                                             
- */                                                                                                   
+ * print_alphabet - prints alphabets from a-z
+ *
+ * Return: 0 when successful
+ *
+ * Description - You can only use _putchar twice in your code
+ */
+
+
 void print_alphabet(void)
 {
 	char ch;
@@ -11,5 +15,5 @@ void print_alphabet(void)
 	{
 		_putchar(ch);
 	}
-	_putchar('\n');                                                   
+	_putchar('\n');
 }
