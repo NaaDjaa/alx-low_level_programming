@@ -1,25 +1,24 @@
 #include "main.h"
 /**
- * more_numbers - a function that prints the numbers, from 0 to 14
- *
- * Description: prints the numbers 0 to 14, ten times
- *
+ * print_line - draws a straight line in the terminal
+ * @n: n number of times
  * Return: void
  */
-void more_numbers(void)
+void print_line(int n)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; i < 10; i++)
+	if (n <= 0)
 	{
-
-		for (j = 0; j <= 14; j++)
+		_putchar('\n');
+	}
+	else
+	{
+		i = 0;
+		while (i < n)
 		{
-			if (j > 9)
-			{
-				_putchar(j / 10 + '0');
-			}
-			_putchar(j % 10 + '0');
+			_putchar('_');
+			i++;
 		}
 		_putchar('\n');
 	}
