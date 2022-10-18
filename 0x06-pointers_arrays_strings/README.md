@@ -1,0 +1,1 @@
+poiters_arrays_string
