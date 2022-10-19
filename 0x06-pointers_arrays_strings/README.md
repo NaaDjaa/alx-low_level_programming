@@ -1,1 +1,1 @@
-poiters_arrays_string
+pointers_arrays_string
