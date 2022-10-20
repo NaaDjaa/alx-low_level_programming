@@ -6,7 +6,7 @@
  *    *@src: A pointer to a character that will be changed
  *     *@n: value
  *      *Return: dest
- *       */
+ */
 
 char *_strncat(char *dest, char *src, int n)
 
